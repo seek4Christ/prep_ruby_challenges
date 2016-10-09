@@ -1,0 +1,43 @@
+1.
+def power(base, exponent)
+  result = 1
+  exponent.times do result *= base
+  end
+  result
+end
+
+
+2.
+def factorial(number)
+  if number == 0
+  else
+  number * factorial(number - 1)
+  end
+end
+
+3.
+ def unique(array)
+response = Array.new
+array.each do |element|
+response << element unless response.include?(element)
+end
+response
+end
+
+
+
+4.
+def combinations(array_a, array_b)
+a.product(b).map do |a| a[0] + a[1]
+end
+end
+
+
+
+5.
+require 'prime'
+
+def prime?(number)
+number.prime?
+end
+
